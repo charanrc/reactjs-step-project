@@ -7,7 +7,6 @@ const messages = ["Learn React", "Apply for jobs", "Invest your new income"];
 export default function App() {
   const [step, setStep] = useState(2);
   const [isOpen, setIsOpen] = useState(true);
-  console.log(step);
   // const arr = ["hi", "hello", "hey", "hej"];
   // const arrObj = [
   //   {
